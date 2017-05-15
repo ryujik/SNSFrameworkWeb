@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $state["result"]) {
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/SocialMedia.js"></script>
 	<title>Social Media</title>
 </head>
