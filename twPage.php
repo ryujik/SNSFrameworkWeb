@@ -20,7 +20,7 @@ if( $state["result"] )
 	header("Location: " . TW_LOGOUT_URL_CALLBACK);
 
 // Verificar si realizo la acción de postear
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && $state["result"]) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $state["result"]) {
 	$msg = $_POST["txtMessage"];
 	$imgFile = $_FILES["txtFile"];
 	

@@ -29,7 +29,7 @@ if ($state["result"])
 	
 
 // Verificar, si realizo la acción de postear
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && $state["result"]) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $state["result"]) {
 	$msg = $_POST["txtMessage"];
 	$link = $_POST["txtLink"];
 	$imgFile = $_FILES["txtFile"];

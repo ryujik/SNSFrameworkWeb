@@ -10,6 +10,6 @@ define("TW_REQUEST_TOKEN_SECRET" , "tw_request_token_secret");
 // ACCESS TOKEN
 define("TW_ACCESS_TOKEN" , "tw_access_token");
 
-define("TW_LOGIN_URL_CALLBACK", "http://www.kyphone.net/sns/twPage.php");
-define("TW_LOGOUT_URL_CALLBACK", "http://www.kyphone.net/sns/index.php");
+define("TW_LOGIN_URL_CALLBACK", "http://www.example.net/sns/twPage.php");
+define("TW_LOGOUT_URL_CALLBACK", "http://www.example.net/sns/index.php");
 ?>
