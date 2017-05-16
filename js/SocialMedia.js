@@ -20,3 +20,11 @@ function pressed_btnConnectTW() {
 function pressed_btnDisconnectTW() {
 	window.location.href = "process/logoutTW.php";
 }
+
+function pressed_btnPostWallFB() {
+	window.location.href = "process/postWallFB.php";
+}
+
+function pressed_btnPostWallTW() {
+	window.location.href = "process/postWallTW.php";
+}
